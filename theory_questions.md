@@ -35,6 +35,26 @@ Explain Inheritance using a real-world example.
 How does inheritance help reduce code duplication?
 
 
+Important Interview Question - 
+
+class Animal {
+    void sound() {
+        System.out.println("Animal Sound");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Bark");
+    }
+}
+
+Animal a = new Dog();
+a.sound();
+
+What will be the output?
+
+Explain why.
 
 
 
